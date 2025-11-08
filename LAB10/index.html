@@ -1,15 +1,112 @@
 <!DOCTYPE html>
-<html>
+<html lang="mn">
 <head>
-    <title>Welcome to Internet Technology Fundamentals</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank you for reading</title>
+<style>
+body {
+  margin: 0;
+  font-family: "Noto Sans Mongolian", sans-serif;
+  color: #fff;
+  background-color: #1a1a1a;
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(255,255,255,0.05) 1px, transparent 1px),
+    radial-gradient(circle at 80% 80%, rgba(255,255,255,0.05) 1px, transparent 1px),
+    url("Background.jpg");
+  background-size: 3px 3px, 4px 4px, cover;
+  background-repeat: repeat, repeat, no-repeat;
+  background-position: center center;
+  background-attachment: scroll, scroll, fixed;
+}
+
+  .overlay {
+  background: rgba(0, 0, 0, 0.7);  /* uniform dark layer */
+  min-height: 100vh;
+  width: 100%;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  .hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: yellow;
+  }
+
+  .hero p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    max-width: 700px;
+    margin: auto;
+  }
+
+  .robot_photo {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .robot_photo img {
+    max-width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.2);
+  }
+
+  .swerve_photo {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #000;*/
+  }
+
+  .swerve_photo img {
+    max-width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.2);
+  }
+</style>
 </head>
+
 <body>
-    <h1>Welcome to Laboratory 10</h1>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
+  <div class="overlay">
+    <div class="hero">
+      <div>
+        <h1>Өдрийн мэнд багш аа</h1>
+        <p>
+          Интернет технологийн үндэс хичээлийг чөлөөт сонголтоор үздэг оюутан байна аа. Баасан гараг - 11:00 цагийн лекц. М.Төрпүрэв 21B1NUM1093
+          <br><br>
+          Би одоогоор 1,2,4 дүгээр лабораториудыг хийж оноо авсан, хичээлээ таслаагүй явж байгаа. 
+          Харин цаашдаа HTML CSS гээд хэлүүд нэмж сураад хичээлээ хийх гэтэл ойлгохгүй, дээрээс нь цаг маань маш давчуу болоод байгаа юм аа. Шалтгаан нь энэ улирал дипломын хажуугаар 18 кредитийн заавал судлах хичээл үзээд төгсөх гэж байгаа болохоор ажлуудаа амжуулахад асуудал ихтэй болоод.
+          <br><br>
+          Танаас гуйх гэж байгаа юм нь яаж ийгээд тэнцмээр байгаа, ямар даалгавар хийвэл болох вэ? Яавал тэнцүүлэх болзолд хүрэх вэ?
+          Тэгээд хийчхээд хичээлдээ үргэлжлүүлж суухгүй дипломын ажилдаа цаг зарцуулах боломж олгож болох уу? гэж асуух гээд ээ.
+          <br><br>
+          Би электроник хөтөлбөрийн оюутан байгаа юм аа, ийм робот хийж автомат жолоодлогын сургалтын платформ болгохоор ажиллаж байгаа. Гаргасан загвар зургийг маань та сонирхоорой. Scroll хийвэл доор байгаа.
+        </p>
+      </div>
+    </div>
+
+    <div class="robot_photo">
+      <img src="C:\Users\hitech\Desktop\Message\Robot_full_assembly.png" alt="Robot full assembly">
+    </div>
+
+    <div class="swerve_photo">
+      <img src="C:\Users\hitech\Desktop\Message\One_modular_wheel.png" alt="Robot_wheel_photo">
+    </div>
+  </div>
 </body>
 </html>
